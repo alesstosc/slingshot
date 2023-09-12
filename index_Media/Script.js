@@ -13,9 +13,9 @@ for (var i = 0; i < parole.length; i++){
 	}
 }
 if (contatore==1){
-	GetUrl("http://www.microsoft.com");
+	GetUrl("https://slingshot-catalog.netlify.app/comp.html");
 } else{
-	GetUrl("http://www.google.com");
+	GetUrl("https://slingshot-catalog.netlify.app/cell.html");
 }
 	
 
