@@ -1,25 +1,12 @@
-function Frame__0_0(ID){alert("UserAgent: " + navigator.userAgent + "\nappName: " + navigator.appName + "\nappVersion: " + navigator.appVersion);
-// Ottieni la stringa userAgent
-var userAgentString = navigator.userAgent;
+function Button1_OnClick(){
+StackTrace="Button1.Al Clic";
+ImageSequenceNext("suka");
 
-// Dividi la stringa in parole utilizzando uno o più spazi come delimitatori
-var parole = userAgentString.split(/\s+/);
-
-// Utilizza un ciclo for per enumerare le parole
-var contatore=0;
-for (var i = 0; i < parole.length; i++){
-	if (parole[i]=="(Windows") {
-		contatore=contatore+1;
-	}
 }
-if (contatore==1){
-	GetUrl("https://slingshot-catalog.netlify.app/comp.html");
-} else{
-	GetUrl("https://slingshot-catalog.netlify.app/cell.html");
-}
-	
 
-
+function Button2_OnClick(){
+StackTrace="Button2.Al Clic";
+ImageSequencePrevious("suka");
 
 }
 
