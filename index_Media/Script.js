@@ -1,19 +1,13 @@
-function Frame__0_0(ID){
-StackTrace="Scena 1 Fotogramma 0";
-Stop();
+function Frame__0_0(ID){Stop();
 
 
 }
 
-function Button1_OnClick(){
-StackTrace="Button1.Al Clic";
-ImageSequenceNext("suka");
+function Button1_OnClick(){ImageSequenceNext("suka");
 
 }
 
-function Button2_OnClick(){
-StackTrace="Button2.Al Clic";
-ImageSequencePrevious("suka");
+function Button2_OnClick(){ImageSequencePrevious("suka");
 
 }
 
